@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "theme": {
+    "fontFamily": "Cabin",
+    "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/fire-water-earth-cute"
+  },
+  "customStyles": [
+    "https://fonts.googleapis.com/css?family=Cabin"
+  ],
+  "images": {
+    "background": "background.png",
+    "rock": "rock.png",
+    "paper": "paper.png",
+    "scissors": "scissors.png"
+  },
+  "labels": {
+    "rock": "fire",
+    "paper": "water",
+    "scissors": "earth"
+  },
+  "screens": {
+    "choice": {
+      "title": "Fire Water & Earth",
+      "subtitle": "Choose your element"
+    },
+    "result": {
+      "won": "you won!",
+      "lost": "you lost!",
+      "draw": "it's a draw",
+      "replay": "replay",
+      "feedback": {
+        "won": "{player} beats {cpu}",
+        "lost": "{cpu} beats {player}",
+        "draw": "Nobody won this time"
+      }
+    }
+  }
+}
