@@ -1,5 +1,5 @@
 <?php
-$games = array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..']);
+$games = array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..', '.gitkeep']);
 ?>
 
 <!DOCTYPE html>
@@ -19,13 +19,12 @@ $games = array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..']);
         Nobot Game Studios
       </h1>
       <h2 class="subtitle">Play our Games</h2>
+      <?php if (empty($games)) {
+          echo '<h3>No Games!</h3>';
+      } ?>
       <div class="columns">
         <?php 
         $gameLink = '/releases/';
-
-        if (empty($games)) {
-          echo '<h3>No Games!</h3>';
-        }
 
         foreach($games as $key => $game) { ?>
           <div class="column">
