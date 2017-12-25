@@ -22,6 +22,11 @@ $games = array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..']);
       <div class="columns">
         <?php 
         $gameLink = '/releases/';
+
+        if (empty($games)) {
+          echo '<h3>No Games!</h3>';
+        }
+
         foreach($games as $key => $game) { ?>
           <div class="column">
             <h1><?= str_replace('-', ' ', strtoupper($game)) ?></h1>
