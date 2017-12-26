@@ -1,5 +1,5 @@
 <?php
-$games = array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..', '.gitkeep']);
+$games = array_values(array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.', '..', '.gitkeep']));
 ?>
 
 <!DOCTYPE html>
