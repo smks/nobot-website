@@ -1,13 +1,50 @@
+html, body {
+  background-color: #111111;
+  color: white;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle {
+  color: #8cc84c;
+}
+
+hr {
+  background-color: #333333;
+}
+
 .column img {
   transition: all .2s ease-in-out;
   width: 100%;
-  max-width: 660px;
+}
+
+.column > h1 {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .column img {
+    max-width: 360px;
+  }
+  .column h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column img {
+    max-width: 468px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .column img {
+    max-width: 560px;
+  }
 }
 
 .column img:hover {
   transform: scale(1.05);
-}
-
-.column h1 {
-  font-size: 24px;
 }

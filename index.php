@@ -19,6 +19,7 @@ $games = array_values(array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.
         Nobot Game Studios
       </h1>
       <h2 class="subtitle">Play our Games</h2>
+      <hr>
       <?php if (empty($games)) {
           echo '<h3>No Games!</h3>';
       } ?>
