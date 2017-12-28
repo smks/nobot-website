@@ -42,5 +42,11 @@ $games = array_values(array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.
         }; ?>
     </div>
   </section>
+  <div id="overlay-container" class="overlay-container is-hidden">
+    <div class="overlay-background"></div>
+    <div id="close-button" class="cross">X</div>
+    <div id="overlay" class="overlay"></div>
+  </div>
+  <script src="main.js"></script>
   </body>
 </html>
