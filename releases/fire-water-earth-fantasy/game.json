@@ -1,0 +1,39 @@
+{
+    "id": 36236,
+    "theme": {
+        "fontFamily": "Cabin",
+        "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/fire-water-earth-fantasy"
+    },
+    "customStyles": [
+        "https://fonts.googleapis.com/css?family=Cabin"
+    ],
+    "images": {
+        "background": "background.png",
+        "rock": "rock.png",
+        "paper": "paper.png",
+        "scissors": "scissors.png"
+    },
+    "labels": {
+        "rock": "fire",
+        "paper": "water",
+        "scissors": "earth"
+    },
+    "screens": {
+        "choice": {
+            "title": "Fire Water & Earth",
+            "subtitle": "Choose your destiny"
+        },
+        "result": {
+            "won": "victorious!",
+            "lost": "you perished!",
+            "draw": "not decided!",
+            "replay": "replay",
+            "feedback": {
+                "won": "{player} defeated {cpu}",
+                "lost": "{cpu} defeated {player}",
+                "draw": "One must not know the outcome"
+            }
+        }
+    },
+    "projectName": "fire-water-earth-fantasy"
+}
