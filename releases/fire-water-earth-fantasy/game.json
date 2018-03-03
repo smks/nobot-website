@@ -1,5 +1,6 @@
 {
     "id": 36236,
+    "projectName": "fire-water-earth-fantasy",
     "theme": {
         "fontFamily": "Cabin",
         "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/fire-water-earth-fantasy"
@@ -34,6 +35,5 @@
                 "draw": "One must not know the outcome"
             }
         }
-    },
-    "projectName": "fire-water-earth-fantasy"
+    }
 }
