@@ -1,5 +1,6 @@
 {
     "id": 36237,
+    "projectName": "fire-water-earth-retro",
     "theme": {
         "fontFamily": "Cabin",
         "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/fire-water-earth-retro"
@@ -34,6 +35,5 @@
                 "draw": "Nobody won this time"
             }
         }
-    },
-    "projectName": "fire-water-earth-retro"
+    }
 }
