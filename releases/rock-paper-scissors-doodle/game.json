@@ -1,5 +1,6 @@
 {
     "id": 36238,
+    "projectName": "rock-paper-scissors-doodle",
     "theme": {
         "fontFamily": "Cabin",
         "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/rock-paper-scissors-doodle"
@@ -34,6 +35,5 @@
                 "draw": "Nobody won this time"
             }
         }
-    },
-    "projectName": "rock-paper-scissors-doodle"
+    }
 }
