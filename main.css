@@ -1,11 +1,18 @@
 html, body {
-  background-color: #111111;
-  color: white;
+  
+}
+
+header {
+  background-color: #333333;
+  color: white;  
+  height: 150px;
+  padding: 36px;
 }
 
 .title {
   color: white;
 }
+
 
 .subtitle {
   color: #8cc84c;
@@ -16,6 +23,7 @@ hr {
 }
 
 .column img {
+  border: 4px solid #333333;
   transition: all .2s ease-in-out;
   width: 100%;
 }
