@@ -1,5 +1,8 @@
-html, body {
-  color: white;
+header {
+  background-color: #333333;
+  color: white;  
+  height: 150px;
+  padding: 1.5em;
 }
 
 html {
@@ -11,12 +14,41 @@ body {
   min-height: 100%;
 }
 
+#ngs-logo {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  #ngs-logo {
+    float: left;
+    margin-right: 1em;
+  }
+}
+
 .title {
   color: white;
+  display: none;
+  padding-top: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    display: block;
+  }
 }
 
 .subtitle {
   color: #8cc84c;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .subtitle {
+    display: block;
+  }
 }
 
 hr {
@@ -24,6 +56,7 @@ hr {
 }
 
 .column img {
+  border: 4px solid #333333;
   transition: all .2s ease-in-out;
   width: 100%;
 }

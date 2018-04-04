@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Game</title>
+  <link rel="stylesheet" href="/core/rock-paper-scissors.1.1.0.css">
+  <script src="/core/rock-paper-scissors.1.1.0.js"></script>
+  <script>require('initialize');</script>
+</head>
+<body>
+  <div id="game">
+    <div id="loading-screen">
+      <h1 class="title">Loading...</h1>
+    </div>
+    <div id="choice-screen" class="is-hidden">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <h2 class="subtitle">Make your choice</h2>
+      <div class="choices"></div>
+    </div>
+    <div id="result-screen" class="is-hidden">
+      <h2 class="subtitle"></h2>
+      <div class="choice-results"></div>
+      <div class="score"></div>
+      <div class="feedback"></div>
+      <div class="replay">
+        <button id="replay-button">Replay</button>
+      </div>
+    </div>
+  </div>
+</body>
