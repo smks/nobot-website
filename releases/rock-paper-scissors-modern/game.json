@@ -3,7 +3,7 @@
     "projectName": "rock-paper-scissors-modern",
     "theme": {
         "fontFamily": "Cabin",
-        "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/rock-paper-scissors-modern"
+        "path": "https://smks.co.uk/assets/automatingwithnodejs/rock-paper-scissors/rock-paper-scissors-modern"
     },
     "customStyles": [
         "https://fonts.googleapis.com/css?family=Cabin"

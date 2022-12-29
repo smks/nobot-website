@@ -3,7 +3,7 @@
     "projectName": "rock-paper-scissors-doodle",
     "theme": {
         "fontFamily": "Cabin",
-        "path": "http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/rock-paper-scissors-doodle"
+        "path": "https://smks.co.uk/assets/automatingwithnodejs/rock-paper-scissors/rock-paper-scissors-doodle"
     },
     "customStyles": [
         "https://fonts.googleapis.com/css?family=Cabin"
