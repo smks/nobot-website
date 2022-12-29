@@ -34,7 +34,7 @@ $games = array_values(array_diff(scandir(join('/', [getcwd(), 'releases'])), ['.
             <h1><?= str_replace('-', ' ', strtoupper($game)) ?></h1>
             
             <a href="<?=$gameLink . $game . '/index.html'?>">
-              <img src="<?='http://cdn.opencanvas.co.uk/automatingwithnodejs/assets/rock-paper-scissors/' . $game . '/banner.jpg'?>" alt="Banner" >
+              <img src="<?='https://smks.co.uk/assets/automatingwithnodejs/rock-paper-scissors/' . $game . '/banner.jpg'?>" alt="Banner" >
             </a>
 
           </div>
